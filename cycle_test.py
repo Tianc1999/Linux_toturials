@@ -1,6 +1,6 @@
 
 # resnet循环测试ROCm     
-# 如果想加入iGPU的测试，请在其他环境下载onnxruntime-directml测试 , 并设置providers=["DmlExecutionProvider"] 
+# windows下如果想加入iGPU的测试，请在其他环境下载onnxruntime-directml测试 , 并设置providers=["DmlExecutionProvider"] 
 import os 
 os.environ['HSA_OVERRIDE_GFX_VERSION'] = "11.0.0"
 import cv2
